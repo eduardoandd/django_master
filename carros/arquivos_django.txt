@@ -14,3 +14,5 @@ admin.py: administra conteudo da sua aplicação, conseguimos um crud completo d
 Camadas do django:
 Usuario -> Browser -> URLS -> views -> Models -> Database -> Viwes ->Templates -> Browser -> Usuario
 
+====== COMANDOS =====
+migrations: comandos python que serão traduzidos para comandos SQL
