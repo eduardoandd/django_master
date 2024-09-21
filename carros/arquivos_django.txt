@@ -1,0 +1,16 @@
+settings.py: Contem todas as configurações do projeto django.
+__init__.y: pacote de código
+asgi: gerenciar as configurações do aplication server quando está em produção
+urls.py: define todas as rotas do projeto
+
+
+=== app ===
+
+apps.py: Configurações básicas padrão,
+models.py: Tabela do banco de dados(modelos)
+views.py: escrever toda as viwes (lógica da aplicação)
+admin.py: administra conteudo da sua aplicação, conseguimos um crud completo de suas identidas.
+
+Camadas do django:
+Usuario -> Browser -> URLS -> views -> Models -> Database -> Viwes ->Templates -> Browser -> Usuario
+
