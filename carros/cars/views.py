@@ -12,7 +12,7 @@ def cars_view(request):
     # print(search)
     
     if search:
-        cars=Car.objects.filter(model=search)
+        cars=Car.objects.filter(model__icontains=search)
     else:
         cars=Car.objects.all()
     
