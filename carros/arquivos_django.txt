@@ -16,3 +16,16 @@ Usuario -> Browser -> URLS -> views -> Models -> Database -> Viwes ->Templates -
 
 ====== COMANDOS =====
 migrations: comandos python que serão traduzidos para comandos SQL
+
+
+
+
+
+
+
+
+
+======= CRIANDO UM NOVO APP ==============
+1- Criar rota
+2- Criar view
+3- criar formulario html
