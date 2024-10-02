@@ -19,4 +19,15 @@ class Car(models.Model):
     def __str__(self):
         return self.model
     
+class CarInventory(models.Model):
+    cars_count= models.IntegerField()
+    cars_value=models.FloatField()
+    created_at=models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        ordering = ['-created_at'] # ordena de forma decrescente
+    
+    # cada instancia vai retornar oq está dentro do dunder 
+    def __str__(self):
+        return f'{self.cars_count} - {self.cars_value}'
 
