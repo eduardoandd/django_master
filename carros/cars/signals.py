@@ -2,7 +2,7 @@ from django.db.models.signals import pre_save,pre_delete,post_save,post_delete
 from django.dispatch import receiver
 from cars.models import Car,CarInventory
 from django.db.models import Sum
-from openai_api.client import *
+
 
 
 def car_invetory_update():
